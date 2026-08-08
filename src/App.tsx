@@ -6,7 +6,7 @@ function App() {
     <>
       <header>
         <div className="nav-container">
-          <img src="/logo.png" alt="Mozify Logo" className="logo" />
+          <img src="/assets/logo.png" alt="Mozify Logo" className="logo" />
           <h1>Mozify</h1>
           <nav>
             <a href="#">Home</a>
