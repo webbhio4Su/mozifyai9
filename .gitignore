@@ -3,9 +3,30 @@ node_modules/
 
 # environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # build output
 dist/
+build/
 
-# misc
+# IDE/editor configs
+.vscode/
+.idea/
+
+# misc system files
 .DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# lock files (nếu không muốn commit)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
