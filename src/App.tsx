@@ -1,15 +1,19 @@
 import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <>
       <header>
-        <h1>Mozify</h1>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
+        <div className="nav-container">
+          <img src="/assets/logo.png" alt="Mozify Logo" className="logo" />
+          <h1>Mozify</h1>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
       </header>
 
       <main>
