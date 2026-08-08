@@ -4,9 +4,11 @@ import "./App.css";
 function App() {
   return (
     <>
+      {/* Header + Navbar */}
       <header>
         <div className="nav-container">
-          <img src="/assets/logo.png" alt="Mozify Logo" className="logo" />
+          {/* Logo lấy từ public/logo.png */}
+          <img src="/logo.png" alt="Mozify Logo" className="logo" />
           <h1>Mozify</h1>
           <nav>
             <a href="#">Home</a>
@@ -16,6 +18,7 @@ function App() {
         </div>
       </header>
 
+      {/* Hero Section */}
       <main>
         <section className="hero">
           <h2>Welcome to Mozify</h2>
@@ -24,6 +27,7 @@ function App() {
         </section>
       </main>
 
+      {/* Footer */}
       <footer>
         <p>© 2026 Mozify. All rights reserved.</p>
       </footer>
